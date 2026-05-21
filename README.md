@@ -76,3 +76,26 @@ npm run dev
 Frontend runs on:
 
 http://localhost:5173
+
+
+API Endpoints
+Method	Endpoint	Description
+POST	/upload-excel	Upload Excel File
+GET	/analytics/yoy	YoY Emissions
+GET	/analytics/hotspots	Emission Hotspots
+GET	/analytics/intensity	KPI Metrics
+GET	/analytics/monthly-trends	Monthly Trends
+Excel Upload
+
+Supported sheets:
+
+Scope 1
+Scope 2
+Scope 3
+
+The uploaded data is automatically parsed and stored in the database.
+
+Docker Run
+docker build -t carboniq .
+
+docker run -p 8000:8000 carboniq
