@@ -1,3 +1,6 @@
+vercel : https://carbon-iq-mu.vercel.app/
+
+
 # CarbonIQ – ESG Analytics Platform
 
 CarbonIQ is a full-stack ESG analytics dashboard that enables organizations to upload carbon emissions Excel data and visualize sustainability insights through interactive dashboards and analytics.
